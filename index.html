@@ -28,11 +28,7 @@
     />
     <link
       rel="stylesheet"
-      href="includes/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="includes/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     />
     <link
       rel="stylesheet"
@@ -74,7 +70,10 @@
               id="navbarNavAltMarkup"
             >
               <div class="navbar-nav">
-                <a class="nav-link active px-0" aria-current="page" href="index.html"
+                <a
+                  class="nav-link active px-0"
+                  aria-current="page"
+                  href="index.html"
                   >Trang chủ</a
                 >
                 <a class="nav-link px-0" href="recruitment.html">Tuyển dụng</a>
@@ -978,8 +977,8 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <script src="includes/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
-    <script src="includes/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <!-- <script>
       $(document).ready(function () {
@@ -1027,7 +1026,7 @@
       resizeFn();
     </script> -->
 
-    <script>
+    <!-- <script>
       function resizeFn() {
         if (screen.width < 480) {
           $(document).ready(function () {
@@ -1046,7 +1045,25 @@
       window.onresize = resizeFn;
       resizeFn();
 
-      window.addEventListener('resize', resizeFn);
+      window.addEventListener("resize", resizeFn);
+    </script> -->
+
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel-testimonial").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            480: {
+              items: 3,
+            },
+          },
+        });
+      });
     </script>
 
     <!-- <script>
@@ -1070,7 +1087,17 @@
     <script>
       $(document).ready(function () {
         $(".owl-carousel-blog").owlCarousel({
-          items: 3,
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            480: {
+              items: 3,
+            },
+          },
         });
       });
     </script>
