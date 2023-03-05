@@ -383,6 +383,7 @@
     position: absolute;
     top: 55%;
     left: -65%;
+    display: none
   }
 
   .design__app__wrap h2::after {
@@ -393,6 +394,8 @@
     position: absolute;
     top: 55%;
     right: -65%;
+    display: none
+
   }
 
   .design__app__wrap img {
@@ -583,6 +586,8 @@
     position: absolute;
     top: 55%;
     left: -100%;
+    display: none
+
   }
 
   .testimonial__wrap h2::after {
@@ -593,6 +598,8 @@
     position: absolute;
     top: 55%;
     right: -100%;
+    display: none
+
   }
 
   .testimonial__wrap img {
@@ -749,6 +756,8 @@
     position: absolute;
     top: 55%;
     left: 2%;
+    display: none
+
   }
 
   .blog__wrap h2::after {
@@ -759,6 +768,8 @@
     position: absolute;
     top: 55%;
     right: 2%;
+    display: none
+
   }
 
   .owl-carousel-blog {
@@ -912,6 +923,8 @@
     position: absolute;
     top: 55%;
     left: 2%;
+    display: none
+
   }
 
   .contact__wrap h2::after {
@@ -922,6 +935,8 @@
     position: absolute;
     top: 55%;
     right: 2%;
+    display: none
+
   }
 
   .contact__wrap .map {
