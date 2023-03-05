@@ -749,6 +749,7 @@
                   allowfullscreen=""
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
+                  id="maps"
                 ></iframe>
               </div>
               <div class="contact__content">
@@ -1049,6 +1050,22 @@
     </script> -->
 
     <script>
+      function myFunction() {
+        if (screen.width <= 480) {
+          document.getElementById("maps").setAttribute("width", "380px");
+        } else if (screen.width <= 768) {
+          document.getElementById("maps").setAttribute("width", "650px");
+        } else if (screen.width <= 1024) {
+          document.getElementById("maps").setAttribute("width", "950px");
+        } else {
+          document.getElementById("maps").setAttribute("width", "1230px");
+        }
+      }
+      window.onresize = myFunction;
+      myFunction();
+    </script>
+
+    <script>
       $(document).ready(function () {
         $(".owl-carousel-testimonial").owlCarousel({
           loop: true,
@@ -1059,6 +1076,9 @@
               items: 1,
             },
             480: {
+              items: 2,
+            },
+            800: {
               items: 3,
             },
           },
@@ -1095,6 +1115,9 @@
               items: 1,
             },
             480: {
+              items: 2,
+            },
+            800: {
               items: 3,
             },
           },

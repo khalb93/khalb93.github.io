@@ -288,7 +288,7 @@ body {
 /**about__us-start**/
 
 .about__us {
-  height: 735px;
+  height: auto;
   background-color: #ffffff;
   background-image: url("../images/lawyer-pic-bg.jpeg");
   background-repeat: no-repeat;
@@ -524,7 +524,7 @@ body {
 /**testimonial-start**/
 
 .testimonial {
-  height: 1550px;
+  height: auto;
   background-color: #fff;
 }
 
@@ -566,7 +566,7 @@ body {
 }
 
 .owl-carousel-testimonial {
-  height: 630px;
+  height: auto;
 }
 
 .owl-carousel-testimonial .item {
@@ -635,8 +635,8 @@ body {
 }
 
 .profit {
-  margin-top: 200px;
-  height: 573px;
+  margin-top: 100px;
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -689,7 +689,7 @@ body {
 /**blog-start**/
 
 .blog {
-  height: 900px;
+  height: auto;
   background-color: #fff;
 }
 
@@ -855,7 +855,7 @@ body {
 /**contact-start**/
 
 .contact {
-  height: 1250px;
+  height: auto;
 }
 
 .contact__wrap {

@@ -316,7 +316,7 @@
   /**about__us-start**/
 
   .about__us {
-    height: 935px;
+    height: auto;
     background-color: #ffffff;
     background-image: url("../images/lawyer-pic-bg.jpeg");
     background-repeat: no-repeat;
@@ -339,8 +339,7 @@
   .about__us__wrap div img {
     max-width: 283.32px;
     height: 261.93px;
-    display: flex;
-    align-self: flex-end;
+    margin-left: 20%;
   }
 
   .about__us__wrap div p {
@@ -350,8 +349,8 @@
   }
 
   .about__us .justify__item{
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    width: 100%;
   }
   
 
@@ -472,7 +471,7 @@
 
   .design__web {
     max-width: 100%;
-    height: 971px;
+    height: auto;
     background-color: #ffffff;
     background-image: url("../images/BG-thiết-kế.svg");
     background-repeat: no-repeat;
@@ -498,6 +497,7 @@
     height: 232.48px;
     margin-top: 40px;
     margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   .design__web__text {
@@ -558,7 +558,7 @@
   /**testimonial-start**/
 
   .testimonial {
-    height: 2050px;
+    height: auto;
     background-color: #fff;
   }
 
@@ -572,6 +572,7 @@
     font-size: 40px;
     color: #007faa;
     position: relative;
+    text-align: center;
   }
 
   .testimonial__wrap h2::before {
@@ -600,7 +601,7 @@
   }
 
   .owl-carousel-testimonial {
-    height: 630px;
+    height: auto;
   }
 
   .owl-carousel-testimonial .item {
@@ -669,25 +670,24 @@
   }
 
   .profit {
-    margin-top: 200px;
-    height: 873px;
+    margin-top: 100px;
+    height: auto;
     max-width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: block;
     border-top: 4px dashed #0201011c;
     padding-top: 50px;
     position: relative;
   }
 
   .profit .profit__wrap div div img {
-    max-width: 475px !important;
+    width: 100% !important;
     height: 480px;
     object-fit: fill;
     padding: 10px;
   }
 
   .profit .profit__text {
-    max-width: 475px;
+    width: 475px;
     padding-left: 10px;
     position: relative;
   }
@@ -723,7 +723,7 @@
   /**blog-start**/
 
   .blog {
-    height: 800px;
+    height: auto;
     background-color: #fff;
   }
 
@@ -887,7 +887,7 @@
   /**contact-start**/
 
   .contact {
-    height: 1850px;
+    height: auto;
   }
 
   .contact__wrap {
@@ -1220,33 +1220,38 @@
   /**middle__footer-start**/
 
   .middle__footer {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 258px;
-    border-bottom: 1px solid rgba(129, 129, 129, 0.2);
+    display: none;
   }
 
-  .middle__footer div {
+  .middle__footer_responsive{
+    max-width: 100%;
+    display: block;
+    justify-content: center;
+    height: 208px;
+    border-bottom: 1px solid rgba(129, 129, 129, 0.2);
+    padding: 10px;
+  }
+
+  .middle__footer_responsive div {
     gap: 40px;
   }
 
-  .middle__footer div img {
-    max-width: 250px;
-    height: 120px;
+  .middle__footer_responsive div img {
+    width: 160px;
+    height: 70px;
   }
 
-  .middle__footer p {
+  .middle__footer_responsive p {
     font-family: "Roboto Bold";
     font-size: 14px;
     color: #242424;
   }
 
-  .middle__footer_responsive{
-    display: none;
+  .middle__footer_responsive .social__wrap{
+    margin-top: 20px;
   }
 
-  .middle__footer .social__footer {
+  .middle__footer_responsive .social__footer {
     display: flex;
     gap: 8px;
   }
