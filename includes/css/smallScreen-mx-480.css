@@ -187,7 +187,11 @@
     max-width: 1070px;
     height: 465px;
     object-fit: cover;
-    object-position: bottom left;
+    object-position: center left;
+  }
+
+  .carousel-item img.top{
+    object-position: top left;
   }
 
   .carousel-indicators [data-bs-target] {

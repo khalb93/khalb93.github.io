@@ -161,14 +161,18 @@ body {
   width: 1070px;
   height: 465px;
   object-fit: cover;
-  object-position: bottom left;
+  object-position: center left;
+}
+
+.carousel-item img.top{
+  object-position: top left;
 }
 
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 15px !important;
-  height: 15px !important;
+  width: 18px !important;
+  height: 18px !important;
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
