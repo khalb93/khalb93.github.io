@@ -151,6 +151,12 @@ body {
   color: #ffffff;
 }
 
+.banner__image input::placeholder{
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #54595F;
+}
+
 .banner__carousel {
   width: 100%;
   height: 465px;

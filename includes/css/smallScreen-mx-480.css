@@ -121,7 +121,7 @@
   /**banner-start**/
 
   .banner {
-    height: 547px;
+    height: 347px;
     margin-top: 20px;
   }
 
@@ -167,6 +167,12 @@
     display: none;
   }
 
+  .banner__image input::placeholder{
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #54595F;
+  }
+
   .banner__image .filter .input-group .form-control {
     border-radius: 0 !important;
   }
@@ -179,13 +185,13 @@
 
   .banner__carousel {
     max-width: 100%;
-    height: 465px;
+    height: 265px;
     margin-top: 30px;
   }
 
   .carousel-item img {
     max-width: 1070px;
-    height: 465px;
+    height: 225px;
     object-fit: cover;
     object-position: center left;
   }
@@ -280,6 +286,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   text-align: center;
   }
 
   .information__wrap .content .youtube {
@@ -303,7 +310,7 @@
   }
 
   .information__wrap .content div img {
-    max-width: 43.26px;
+    width: 43.26px;
     height: 43.26px;
   }
 
@@ -495,10 +502,10 @@
   }
 
   .design__web__wrap img {
-    max-width: 353.32px;
+    max-width: 333.32px;
     height: 232.48px;
     margin-top: 60px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 20px;
   }
 
