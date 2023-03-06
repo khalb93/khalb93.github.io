@@ -318,7 +318,7 @@
   .about__us {
     height: auto;
     background-color: #ffffff;
-    background-image: url("../images/lawyer-pic-bg.jpeg");
+    background-image: url("../images/lawyer-pic-bg.webp");
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 60px;
@@ -1342,7 +1342,7 @@
 
   .infor__recruiment {
     height: 230px;
-    background-image: url("../images/tech-background.png");
+    background-image: url("../images/tech-background.webp");
     background-size: 1920px 230px;
     background-repeat: no-repeat;
     margin-bottom: 90px;
