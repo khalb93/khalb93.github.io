@@ -188,18 +188,18 @@
     margin-top: 30px;
   }
 
-  .carousel-item img {
+  .banner__carousel .carousel-item img {
     max-width: 1070px;
     height: 465px;
     object-fit: cover;
     object-position: center left;
   }
 
-  .carousel-item img.top{
+  .banner__carousel .carousel-item img.top{
     object-position: top left;
   }
 
-  .carousel-indicators [data-bs-target] {
+  .banner__carousel .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
     max-width: 15px !important;
@@ -217,7 +217,7 @@
     transition: opacity 0.6s ease;
   }
 
-  .carousel-indicators .active {
+  .banner__carousel .carousel-indicators .active {
     background-image: url("../images/circle-dot-regular.svg");
   }
 
@@ -410,13 +410,8 @@
 
   }
 
-  .design__app__wrap img {
-    max-width: 50px;
-    height: 50px;
-  }
-
   .design__app__box {
-    height: 650px;
+    height: auto;
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
@@ -457,7 +452,7 @@
   }
 
   .design__app__box div img {
-    max-width: 100px;
+    width: 100px;
     height: 100px;
   }
 
@@ -476,8 +471,14 @@
   }
 
   .design__app__box .image__carousel {
-    max-width: 100px;
-    height: 650px;
+    width: 565px;
+    height: auto;
+    padding: 0px 20px;
+  }
+  
+  .image__carousel .carousel-item img{
+    width: 555px;
+    height: 530px;
   }
 
   /**design__app-end**/

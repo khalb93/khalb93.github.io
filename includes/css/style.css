@@ -163,18 +163,18 @@ body {
   margin-top: 30px;
 }
 
-.carousel-item img {
+.banner__carousel .carousel-item img {
   width: 1070px;
   height: 465px;
   object-fit: cover;
   object-position: center left;
 }
 
-.carousel-item img.top{
+.banner__carousel .carousel-item img.top{
   object-position: top left;
 }
 
-.carousel-indicators [data-bs-target] {
+.banner__carousel .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
   width: 18px !important;
@@ -192,7 +192,7 @@ body {
   transition: opacity 0.6s ease;
 }
 
-.carousel-indicators .active {
+.banner__carousel .carousel-indicators .active {
   background-image: url("../images/circle-dot-regular.svg");
 }
 
@@ -339,7 +339,7 @@ body {
 /**design__app-start**/
 
 .design__app {
-  height: 876px;
+  height: auto;
   background-color: #fff;
 }
 
@@ -414,7 +414,7 @@ body {
 .design__app__box .left div {
   text-align: end;
   padding: 20px;
-  height: 296.78px;
+  height: 306.78px;
   width: 100%;
   background: #efefef;
   margin-bottom: 20px;
@@ -433,7 +433,7 @@ body {
 .design__app__box .right div {
   text-align: start;
   padding: 20px;
-  height: 296.78px;
+  height: 306.78px;
   width: 100%;
   background: #efefef;
   margin-bottom: 20px;
@@ -441,8 +441,14 @@ body {
 }
 
 .design__app__box .image__carousel {
-  max-width: 100px;
-  height: 650px;
+  width: 665px;
+  height: auto;
+  padding: 0px 60px;
+}
+
+.image__carousel .carousel-item img{
+  width: 655px;
+  height: 630px;
 }
 
 /**design__app-end**/
