@@ -619,6 +619,10 @@ body {
   font-family: "Roboto Bold";
 }
 
+.owl-carousel-testimonial .owl-nav{
+  display: none;
+}
+
 .owl-dot {
   width: 10px;
   height: 10px;
@@ -691,6 +695,7 @@ body {
 .blog {
   height: auto;
   background-color: #fff;
+  margin-top: 20px;
 }
 
 .blog__wrap {
@@ -709,22 +714,22 @@ body {
 
 .blog__wrap h2::before {
   content: "";
-  width: 41%;
+  width: 500px;
   height: 1px;
   background: rgba(0, 0, 0, 0.105);
   position: absolute;
   top: 55%;
-  left: 2%;
+  left: 120px;
 }
 
 .blog__wrap h2::after {
   content: "";
-  width: 41%;
+  width: 500px;
   height: 1px;
   background: rgba(0, 0, 0, 0.105);
   position: absolute;
   top: 55%;
-  right: 2%;
+  right: 120px;
 }
 
 .owl-carousel-blog {
@@ -736,6 +741,10 @@ body {
   max-width: 467.33px;
   max-height: 550px;
   margin-left: 30px;
+}
+
+.owl-carousel-blog .owl-nav{
+  display: none;
 }
 
 .item .wrapper {

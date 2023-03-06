@@ -656,6 +656,10 @@
     color: #777777;
   }
 
+  .owl-carousel-testimonial .owl-nav{
+    display: none;
+  }
+
   .owl-carousel-testimonial .item .content span {
     color: #242424;
     font-family: "Roboto Bold";
@@ -719,7 +723,7 @@
   .vietnam {
     position: absolute;
     top: 5%;
-    right: -30%;
+    right: 10%;
     max-width: 337.25px !important;
     height: 424.69px !important;
     opacity: 0.4;
@@ -779,6 +783,10 @@
   .owl-carousel-blog .item {
     max-width: 300.33px;
     height: 500px;
+  }
+
+  .owl-carousel-blog .owl-nav{
+    display: none;
   }
 
   .item .wrapper {

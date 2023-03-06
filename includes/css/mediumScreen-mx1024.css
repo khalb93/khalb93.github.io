@@ -662,6 +662,10 @@
     font-family: "Roboto Bold";
   }
 
+  .owl-carousel-testimonial .owl-nav{
+    display: none;
+  }
+
   .owl-dot {
     max-width: 10px;
     height: 10px;
@@ -721,7 +725,7 @@
   .vietnam {
     position: absolute;
     top: 5%;
-    right: -30%;
+    right: 5%;
     max-width: 337.25px !important;
     height: 424.69px !important;
     opacity: 0.4;
@@ -783,6 +787,10 @@
     height: 500px;
   }
 
+  .owl-carousel-blog .owl-nav{
+    display: none;
+  }
+
   .item .wrapper {
     position: relative;
   }
@@ -790,6 +798,10 @@
   .owl-carousel-blog .item img {
     max-width: 300.33px;
     height: 170.61px;
+  }
+
+  .owl-carousel-blog .owl-nav{
+    display: none;
   }
 
   .item .category {
