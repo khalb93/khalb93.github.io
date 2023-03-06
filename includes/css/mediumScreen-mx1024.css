@@ -1359,18 +1359,19 @@
   }
 
   .recruitment_item {
-    display: flex;
+    display: block;
+    text-align: center;
   }
 
   .recruitment_item img {
-    max-width: 695px;
-    height: 502.14px;
+    width: 100%;
+    height: auto;
     padding: 10px;
   }
 
   .recruitment_item .recruitment__text {
-    max-width: 695px;
-    height: 502.14px;
+    width: 100%;
+    height: auto;
     padding: 10px;
     display: flex;
     align-items: center;
