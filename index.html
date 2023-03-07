@@ -762,6 +762,7 @@
                   <div class="d-flex">
                     <p>Posted by</p>
                     <img
+                      id="huyhuynh"
                       src="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678182646/Appspirer/huy-huynh_fsuywo.webp"
                     />
                     <p>Quang Huy</p>
@@ -797,6 +798,7 @@
                   <div class="d-flex">
                     <p>Posted by</p>
                     <img
+                      id="huyhuynh"
                       src="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678182646/Appspirer/huy-huynh_fsuywo.webp"
                     />
                     <p>Quang Huy</p>
@@ -816,6 +818,7 @@
               <div class="item col">
                 <div class="flex__center wrapper">
                   <img
+                    id="blog3"
                     class="company"
                     src="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678182670/Appspirer/blog3_td8ygp.webp"
                   />
@@ -832,6 +835,7 @@
                   <div class="d-flex">
                     <p>Posted by</p>
                     <img
+                      id="huyhuynh"
                       src="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678182646/Appspirer/huy-huynh_fsuywo.webp"
                     />
                     <p>Quang Huy</p>
@@ -867,6 +871,7 @@
                   <div class="d-flex">
                     <p>Posted by</p>
                     <img
+                      id="huyhuynh"
                       src="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678182646/Appspirer/huy-huynh_fsuywo.webp"
                     />
                     <p>Quang Huy</p>
@@ -1166,6 +1171,37 @@
       integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(window).resize(function () {
+        if ($(window).width() < 1400) {
+          $("#groupAppspirer").attr(
+            "src",
+            "https://res.cloudinary.com/dcnp2nsnl/image/upload/c_limit,w_844/v1678182686/Appspirer/groupAppspirer_mdryrq.webp"
+          );
+          $("#blog3").attr(
+            "src",
+            "https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,w_650/v1678182670/Appspirer/blog3_td8ygp.webp"
+          );
+          $("#huyhuynh").attr(
+            "src",
+            "https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,w_79/v1678182646/Appspirer/huy-huynh_fsuywo.webp"
+          );
+        } else {
+          $("#groupAppspirer").attr(
+            "src",
+            "https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678182686/Appspirer/groupAppspirer_mdryrq.webp"
+          );
+          $("#blog3").attr(
+            "src",
+            "https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678182670/Appspirer/blog3_td8ygp.webp"
+          );
+          $("#huyhuynh").attr(
+            "src",
+            "https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678182646/Appspirer/huy-huynh_fsuywo.webp"
+          );
+        }
+      });
+    </script>
     <script>
       function patchScrollBlockingListeners() {
         let supportsPassive = false;
