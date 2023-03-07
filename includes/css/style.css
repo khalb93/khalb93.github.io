@@ -1233,6 +1233,16 @@ body {
   gap: 40px;
 }
 
+.middle__footer div img {
+  width: 360px;
+  height: 140px;
+}
+
+.middle__footer div img.dmca {
+  width: 250px;
+  height: 125px;
+}
+
 .middle__footer p {
   font-family: "Roboto Bold";
   font-size: 14px;
