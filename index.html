@@ -819,6 +819,7 @@
                     class="company"
                     src="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678153135/Appspirer/blog3_cbfo9i.webp"
                     src="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_212,w_336/v1678153135/Appspirer/blog3_cbfo9i.webp"
+
                   />
                   <div class="date">
                     <p class="day">21</p>
@@ -1166,61 +1167,6 @@
       integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
       crossorigin="anonymous"
     ></script>
-    <!-- <script>
-      jQuery.event.special.touchstart = {
-        setup: function (_, ns, handle) {
-          this.addEventListener("touchstart", handle, {
-            passive: !ns.includes("noPreventDefault"),
-          });
-        },
-      };
-      jQuery.event.special.touchmove = {
-        setup: function (_, ns, handle) {
-          this.addEventListener("touchmove", handle, {
-            passive: !ns.includes("noPreventDefault"),
-          });
-        },
-      };
-      jQuery.event.special.wheel = {
-        setup: function (_, ns, handle) {
-          this.addEventListener("wheel", handle, { passive: true });
-        },
-      };
-      jQuery.event.special.mousewheel = {
-        setup: function (_, ns, handle) {
-          this.addEventListener("mousewheel", handle, { passive: true });
-        },
-      };
-    </script> -->
-    <script>
-      function patchScrollBlockingListeners() {
-        let supportsPassive = false;
-        const x = document.createElement("x");
-        x.addEventListener("cut", () => 1, {
-          get passive() {
-            supportsPassive = true;
-            return !!1;
-          },
-        });
-        x.remove();
-        if (supportsPassive) {
-          const originalFn = EventTarget.prototype.addEventListener;
-          EventTarget.prototype.addEventListener = function (...args) {
-            if (
-              ["scroll", "touchmove", "touchstart"].includes(args[0]) &&
-              (typeof args[2] !== "object" || args[2].passive === undefined)
-            ) {
-              args[2] = {
-                ...(typeof args[2] === "object" ? args[2] : {}),
-                passive: false,
-              };
-            }
-            originalFn.call(this, ...args);
-          };
-        }
-      }
-      patchScrollBlockingListeners();
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <script>
@@ -1241,27 +1187,17 @@
       myFunction();
     </script>
 
-    <script>
-      function imageFunction() {
-        if (screen.width <= 1024) {
-          document
-            .getElementById("groupAppspirer")
-            .setAttribute(
-              "src",
-              "https://res.cloudinary.com/dcnp2nsnl/image/upload/c_limit,h_465,w_1040/v1678161074/Appspirer/groupAppspirer_bdo1je.webp"
-            );
-        } else {
-          document
-            .getElementById("groupAppspirer")
-            .setAttribute(
-              "src",
-              "https://res.cloudinary.com/dcnp2nsnl/image/upload/Appspirer/groupAppspirer_bdo1je.webp"
-            );
-        }
-      }
-      window.onresize = imageFunction;
-      imageFunction();
-    </script>
+<script>
+  function imageFunction() {
+    if (screen.width <= 1024) {
+      document.getElementById("groupAppspirer").setAttribute("src", "https://res.cloudinary.com/dcnp2nsnl/image/upload/c_limit,h_465,w_1040/v1678161074/Appspirer/groupAppspirer_bdo1je.webp");
+    } else {
+      document.getElementById("groupAppspirer").setAttribute("src", "https://res.cloudinary.com/dcnp2nsnl/image/upload/Appspirer/groupAppspirer_bdo1je.webp");
+    }
+  }
+  window.onresize = imageFunction;
+  imageFunction();
+</script>
 
     <script>
       $(document).ready(function () {
