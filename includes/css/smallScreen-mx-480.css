@@ -2,16 +2,19 @@
   @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto/Roboto-Regular.ttf");
+    font-display: swap;
   }
 
   @font-face {
     font-family: "Roboto Bold";
     src: url("../fonts/Roboto/Roboto-Bold.ttf");
+    font-display: swap;
   }
 
   @font-face {
     font-family: "Book Antiqua";
     src: url("../fonts/Book-Antiqua-Font/BookAntiquaFont.ttf");
+    font-display: swap;
   }
 
   * {
@@ -167,10 +170,10 @@
     display: none;
   }
 
-  .banner__image input::placeholder{
+  .banner__image input::placeholder {
     font-family: "Roboto";
     font-size: 14px;
-    color: #54595F;
+    color: #54595f;
   }
 
   .banner__image .filter .input-group .form-control {
@@ -196,7 +199,7 @@
     object-position: center left;
   }
 
-  .banner__carousel .carousel-item img.top{
+  .banner__carousel .carousel-item img.top {
     object-position: top left;
   }
 
@@ -286,7 +289,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   text-align: center;
+    text-align: center;
   }
 
   .information__wrap .content .youtube {
@@ -415,7 +418,7 @@
     padding: 0px 20px;
   }
 
-  .image__carousel .carousel-item img{
+  .image__carousel .carousel-item img {
     width: 350px;
     height: 380px;
   }
@@ -459,7 +462,6 @@
     background: #efefef;
     margin-bottom: 20px;
     border-radius: 5px;
-
   }
 
   .design__app__box .right {
@@ -476,7 +478,6 @@
     background: #efefef;
     margin-bottom: 20px;
     border-radius: 5px;
-
   }
 
   /**design__app-end**/
@@ -618,7 +619,7 @@
     height: 40px;
   }
 
-  .owl-carousel-testimonial{
+  .owl-carousel-testimonial {
     height: auto;
   }
 
@@ -672,7 +673,7 @@
     font-family: "Roboto Bold";
   }
 
-  .owl-carousel-testimonial .owl-nav{
+  .owl-carousel-testimonial .owl-nav {
     display: none;
   }
 
@@ -839,7 +840,7 @@
     height: 40px;
   }
 
-  .owl-carousel-blog{
+  .owl-carousel-blog {
     height: auto;
   }
 
@@ -854,7 +855,6 @@
     min-height: 500px;
   }
 
-
   .item .wrapper {
     position: relative;
   }
@@ -864,7 +864,7 @@
     height: 170.61px;
   }
 
-  .owl-carousel-blog .owl-nav{
+  .owl-carousel-blog .owl-nav {
     display: none;
   }
 
@@ -1002,7 +1002,6 @@
     top: 55%;
     left: -12%;
     display: none;
-
   }
 
   .contact__wrap h2::after {
@@ -1014,7 +1013,6 @@
     top: 55%;
     right: -12%;
     display: none;
-
   }
 
   .contact__wrap .map {
@@ -1315,7 +1313,7 @@
     display: none;
   }
 
-  .middle__footer_responsive{
+  .middle__footer_responsive {
     max-width: 100%;
     display: block;
     justify-content: center;
@@ -1339,7 +1337,7 @@
     color: #242424;
   }
 
-  .middle__footer_responsive .social__wrap{
+  .middle__footer_responsive .social__wrap {
     margin-top: 20px;
   }
 
