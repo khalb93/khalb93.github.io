@@ -16,22 +16,22 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.css"
-      integrity="sha512-2Z3vsCk5JtNTt8vPBuIjFlQA81Y6OpMGvYkZ9CIB2kucdm9JZTmCv9/dTt64Oqr3j9MsoPWsiHQosAXP+SyqVw=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css"
+      integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.css"
-      integrity="sha512-JXsY+my0lvgobaP74TuVYGWdD/jxFTTcAUd9Wu56yt10PDKd64tP1aAgv/f/yQ5Xwe0zafm38oqOcxnjEkubWw=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css"
+      integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.css"
-      integrity="sha512-IKe4N4FUbftCzEO99y/e8Zg4TBO0lx/uf1eAJghbMCoLVfhnMC/BO1h235c8VO6ZNKXq/Dv88s8fHHvj0BG5vQ=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.min.css"
+      integrity="sha512-bdTSJB23zykBjGDvyuZUrLhHD0Rfre0jxTd0/jpTbV7sZL8DCth/88aHX0bq2RV8HK3zx5Qj6r2rRU/Otsjk+g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -662,7 +662,7 @@
                     </div>
                     <div class="carousel-item">
                       <img
-                        src="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678153130/Appspirer/profit2_bskyv2.gif"
+                        src="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678180828/Appspirer/profit_2_jfj3dy.webp"
                         class="d-block w-100"
                         alt="profit"
                       />
@@ -1163,40 +1163,11 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://code.jquery.com/jquery-3.6.3.js"
-      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
       crossorigin="anonymous"
     ></script>
     <script>
-      jQuery.event.special.touchstart = {
-        setup: function (_, ns, handle) {
-          this.addEventListener("touchstart", handle, {
-            passive: !ns.includes("noPreventDefault"),
-          });
-        },
-      };
-      jQuery.event.special.touchmove = {
-        setup: function (_, ns, handle) {
-          this.addEventListener("touchmove", handle, {
-            passive: !ns.includes("noPreventDefault"),
-          });
-        },
-      };
-      jQuery.event.special.wheel = {
-        setup: function (_, ns, handle) {
-          this.addEventListener("wheel", handle, { passive: true });
-        },
-      };
-      jQuery.event.special.mousewheel = {
-        setup: function (_, ns, handle) {
-          this.addEventListener("mousewheel", handle, { passive: true });
-        },
-      };
-    </script>
-    <!-- <script>
-      document.addEventListener("touchstart", handler, { passive: true });
-    </script> -->
-    <!-- <script>
       function patchScrollBlockingListeners() {
         let supportsPassive = false;
         const x = document.createElement("x");
@@ -1224,7 +1195,7 @@
         }
       }
       patchScrollBlockingListeners();
-    </script> -->
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <script>
@@ -1244,28 +1215,6 @@
       window.onresize = myFunction;
       myFunction();
     </script>
-
-    <!-- <script>
-      function imageFunction() {
-        if (screen.width <= 1024) {
-          document
-            .getElementById("groupAppspirer")
-            .setAttribute(
-              "src",
-              "https://res.cloudinary.com/dcnp2nsnl/image/upload/c_limit,h_465,w_1040/v1678161074/Appspirer/groupAppspirer_bdo1je.webp"
-            );
-        } else {
-          document
-            .getElementById("groupAppspirer")
-            .setAttribute(
-              "src",
-              "https://res.cloudinary.com/dcnp2nsnl/image/upload/Appspirer/groupAppspirer_bdo1je.webp"
-            );
-        }
-      }
-      window.onresize = imageFunction;
-      imageFunction();
-    </script> -->
 
     <script>
       $(document).ready(function () {
