@@ -1,4 +1,18 @@
 @media only screen and (max-width: 1024px) {
+  @font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Book Antiqua";
+    src: url("../fonts/Book-Antiqua-Font/BookAntiquaFont.ttf");
+  }
 
   * {
     box-sizing: border-box;
@@ -15,7 +29,7 @@
   }
 
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
   }
 
@@ -58,7 +72,7 @@
   }
 
   .navbar-nav a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 15px;
     letter-spacing: 1.1px;
     text-transform: uppercase;
@@ -143,7 +157,7 @@
     justify-content: center;
     align-items: center;
     background: #da2121;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 14px;
     color: #ffffff;
     text-transform: uppercase;
@@ -163,7 +177,7 @@
   }
 
   .banner__image input::placeholder{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
     color: #54595F;
   }
@@ -196,7 +210,7 @@
     text-indent: -999px;
     cursor: pointer;
     background-color: transparent !important;
-    background-image: url("../images/circle-regular.svg");
+    background-image: url("https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678153135/Appspirer/circle-regular_jr15yq.svg");
     background-repeat: no-repeat;
     border: none !important;
     opacity: 0.5;
@@ -204,7 +218,7 @@
   }
 
   .banner__carousel .carousel-indicators .active {
-    background-image: url("../images/circle-dot-regular.svg");
+    background-image: url("https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678153135/Appspirer/circle-dot-regular_e2krak.svg");
   }
 
   .service__box {
@@ -227,7 +241,7 @@
   }
 
   .service__box .title div {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 15px;
     color: #fff;
     text-transform: uppercase;
@@ -240,7 +254,7 @@
     justify-content: start;
     align-items: center;
     padding-left: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 14px;
     color: #333;
     border-bottom: 1px solid rgba(0, 0, 0, 0.075);
@@ -303,7 +317,7 @@
   .information__wrap .content p {
     text-align: center;
     margin-top: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 16px;
     color: #000;
   }
@@ -315,7 +329,7 @@
   .about__us {
     height: auto;
     background-color: #ffffff;
-    background-image: url("../images/lawyer-pic-bg.webp");
+    background-image: url("https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678153131/Appspirer/lawyer-pic-bg_qq6jq8.webp");
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 60px;
@@ -326,7 +340,7 @@
   }
 
   .about__us h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 40px;
     color: #007faa;
     text-align: center;
@@ -341,7 +355,7 @@
   }
 
   .about__us__wrap div p {
-    font-family: 'Book Antiqua', sans-serif;
+    font-family: "Book Antiqua";
     font-size: 18.67px;
     color: #1a3d97;
   }
@@ -367,7 +381,7 @@
   }
 
   .design__app__wrap h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 40px;
     color: #007faa;
     position: relative;
@@ -410,13 +424,13 @@
   }
 
   .design__app__box .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 20px;
     color: #007faa;
   }
 
   .design__app__box .content {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 15px;
     color: #606060;
     padding: 0;
@@ -475,7 +489,7 @@
     max-width: 100%;
     height: auto;
     background-color: #ffffff;
-    background-image: url("../images/BG-thiết-kế.svg");
+    background-image: url("https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678153126/Appspirer/BG-thie%CC%82%CC%81t-ke%CC%82%CC%81_s1e1jy.svg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -486,7 +500,7 @@
   }
 
   .design__web__wrap h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 40px;
     color: #ffffff;
     margin-top: 70px;
@@ -513,13 +527,13 @@
   }
 
   .design__web__text .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 22px;
     color: #ffffff;
   }
 
   .design__web__text .content {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 16px;
     color: #ffffff;
     max-width: 85%;
@@ -532,7 +546,7 @@
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 13px;
     color: #3e3e3e;
     text-transform: uppercase;
@@ -547,7 +561,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 13px;
     color: #ffffff;
     border: 1px solid #fff;
@@ -570,7 +584,7 @@
   }
 
   .testimonial__wrap h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 40px;
     color: #007faa;
     position: relative;
@@ -642,21 +656,21 @@
   }
 
   .owl-carousel-testimonial .item .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 15px;
     color: #606060;
     min-height: 150px;
   }
 
   .owl-carousel-testimonial .item .content {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 15px;
     color: #777777;
   }
 
   .owl-carousel-testimonial .item .content span {
     color: #242424;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
   }
 
   .owl-carousel-testimonial .owl-nav{
@@ -703,13 +717,13 @@
   }
 
   .profit__text .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 28px;
     color: #007faa;
   }
 
   .profit__text .content {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 18px;
     color: #606060;
   }
@@ -743,7 +757,7 @@
   }
 
   .blog__wrap h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 40px;
     color: #007faa;
     text-align: center;
@@ -811,7 +825,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 12px;
     color: #ffffff;
     text-transform: uppercase;
@@ -827,7 +841,7 @@
   }
 
   .item .date .day {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 24px;
     color: #333333;
     text-align: center;
@@ -835,14 +849,14 @@
   }
 
   .item .date p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 12px;
     color: #333333;
     text-align: center;
   }
 
   .owl-carousel-blog .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 20px;
     color: #007faa;
     padding: 10px;
@@ -851,7 +865,7 @@
   }
 
   .owl-carousel-blog .content {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
     color: #606060;
     padding: 10px;
@@ -865,7 +879,7 @@
   }
 
   .owl-carousel-blog .posted p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
     color: #a5a5a5;
   }
@@ -881,7 +895,7 @@
   }
 
   .owl-carousel-blog .item div a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 13px;
     color: #3db1e2;
     text-transform: uppercase;
@@ -897,7 +911,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 15px;
     color: #fff;
     background: #818a91;
@@ -918,7 +932,7 @@
   }
 
   .contact__wrap h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 40px;
     color: #007faa;
     text-align: center;
@@ -967,7 +981,7 @@
   }
 
   .contact__content div p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 22px;
     color: #007faa;
     margin-bottom: 30px;
@@ -999,14 +1013,14 @@
   }
 
   .contact__text .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 18px;
     color: #4c4c4c;
     margin-bottom: 10px;
   }
 
   .contact__text .content {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 15px;
     color: #606060;
   }
@@ -1018,7 +1032,7 @@
   }
 
   .contact__field .input__field p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 15px;
     color: #4c4c4c;
     margin-bottom: 5px;
@@ -1048,14 +1062,14 @@
   }
 
   .contact__field .input__width p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 15px;
     color: #4c4c4c;
     margin-bottom: 5px;
   }
 
   .contact__field .input__area p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 15px;
     color: #4c4c4c;
     margin-bottom: 5px;
@@ -1077,7 +1091,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 13px;
     color: #333;
     background: #f3f3f3;
@@ -1103,7 +1117,7 @@
   }
 
   .service__item p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 14px;
     color: #fff;
     text-transform: uppercase;
@@ -1139,7 +1153,7 @@
   }
 
   .infor__appspirer p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 24px;
     color: #443434;
     margin: 15px 0px;
@@ -1156,7 +1170,7 @@
   }
 
   .infor__appspirer .infor_item p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
     color: #777777;
     margin: 10px 0px;
@@ -1168,14 +1182,14 @@
   }
 
   .field__appspirer p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 14px;
     color: #333;
     margin-bottom: 5px;
   }
 
   .field__appspirer a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
     color: #848484;
     display: block;
@@ -1189,14 +1203,14 @@
   }
 
   .policy__appspirer p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 14px;
     color: #333;
     margin-bottom: 5px;
   }
 
   .policy__appspirer a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 14px;
     color: #848484;
     display: block;
@@ -1210,7 +1224,7 @@
   }
 
   .app__appspirer p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 15px;
     color: #242424;
     margin-bottom: 5px;
@@ -1228,7 +1242,7 @@
   }
 
   .app__appspirer .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 15px;
     color: #242424;
     margin: 0px 0px 25px 0px;
@@ -1262,7 +1276,7 @@
   }
 
   .middle__footer p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 14px;
     color: #242424;
   }
@@ -1320,7 +1334,7 @@
   }
 
   .bottom__footer p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     font-size: 12px;
     color: #777777;
     margin-top: 10px;
@@ -1334,7 +1348,7 @@
 
   .bottom__footer p span {
     color: #0000ff;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
   }
 
   /**bottom__footer-end**/
@@ -1347,21 +1361,21 @@
 
   .infor__recruiment {
     height: 230px;
-    background-image: url("../images/tech-background.webp");
+    background-image: url("https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678153128/Appspirer/tech-background_g832ct.webp");
     background-size: 1920px 230px;
     background-repeat: no-repeat;
     margin-bottom: 90px;
   }
 
   .infor__recruiment .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 68px;
     color: #ffffff;
     text-align: center;
   }
 
   .infor__recruiment .content {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 11px;
     color: #ffffff;
     text-align: center;
@@ -1387,7 +1401,7 @@
   }
 
   .recruitment_item div p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 24px;
     color: #4c4c4c;
     margin-bottom: 25px;
@@ -1400,7 +1414,7 @@
     justify-content: center;
     align-items: center;
     border: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto Bold";
     font-size: 13px;
     color: #ffffff;
     background: #3db1e2;
