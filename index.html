@@ -170,9 +170,10 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_limit,h_465,w_1040/v1678161074/Appspirer/groupAppspirer_bdo1je.webp"
+                    src="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678161074/Appspirer/groupAppspirer_bdo1je.webp"
                     class="d-block w-100"
                     alt="banner1"
+                    id="groupAppspirer"
                   />
                 </div>
                 <div class="carousel-item">
@@ -1161,7 +1162,6 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.js" integrity="sha256-1PYCpx/EXA36KN1NKrK7auaTylVyk01D98R7Ccf04Bc=" crossorigin="anonymous"></script>
     <script
       src="https://code.jquery.com/jquery-3.6.3.js"
       integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
@@ -1186,6 +1186,18 @@
       window.onresize = myFunction;
       myFunction();
     </script>
+
+<script>
+  function imageFunction() {
+    if (screen.width <= 1024) {
+      document.getElementById("groupAppspirer").setAttribute("src", "https://res.cloudinary.com/dcnp2nsnl/image/upload/c_limit,h_465,w_1040/v1678161074/Appspirer/groupAppspirer_bdo1je.webp");
+    } else {
+      document.getElementById("groupAppspirer").setAttribute("src", "https://res.cloudinary.com/dcnp2nsnl/image/upload/Appspirer/groupAppspirer_bdo1je.webp");
+    }
+  }
+  window.onresize = imageFunction;
+  imageFunction();
+</script>
 
     <script>
       $(document).ready(function () {
