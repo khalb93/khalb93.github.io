@@ -779,10 +779,10 @@
                   <strong>Vì một Việt Nam đoàn kết và giàu tình thương </strong>
                 </p>
                 <img
-                id="vietnamese"
+                  id="vietnamese"
                   class="vietnam"
                   srcset="
-                    https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_425,q_25,w_337/v1678258645/Appspirer/vietnam_pv0jjl.webp 480w,
+                    https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_425,q_25,w_337/v1678258645/Appspirer/vietnam_pv0jjl.webp 480w
                   "
                   alt="vietnam"
                   sizes="(max-width: 1400px) 480px"
@@ -1299,10 +1299,6 @@
             "src",
             "https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,w_79/v1678182646/Appspirer/huy-huynh_fsuywo.webp"
           );
-          // $("#vietnamese").attr(
-          //   "src",
-          //   "https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_425,q_25,w_337/v1678258645/Appspirer/vietnam_pv0jjl.webp"
-          // );
         } else {
           $("#groupAppspirer").attr(
             "src",
@@ -1316,10 +1312,6 @@
             "src",
             "https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678182646/Appspirer/huy-huynh_fsuywo.webp"
           );
-          // $("#vietnamese").attr(
-          //   "src",
-          //   "https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_525,q_10,w_437/v1678258645/Appspirer/vietnam_pv0jjl.webp"
-          // );
         }
       });
     </script>
@@ -1327,13 +1319,10 @@
     <script>
       $(document).ready(function () {
         $(".owl-carousel").on("initialized.owl.carousel", function (e) {
-          //Go through each carousel on the page
           $(".owl-carousel-testimonial").each(function () {
-            //Find each set of dots in this carousel
             $(this)
               .find(".owl-dot")
               .each(function (index) {
-                //Add one to index so it starts from 1
                 $(this).attr("aria-label", index + 1);
               });
           });
