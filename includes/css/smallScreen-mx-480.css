@@ -346,7 +346,7 @@
   .about__us h1 {
     font-family: "Roboto Bold";
     font-size: 30px;
-    color: #007faa;
+    color: #005D80;
     text-align: center;
     margin-top: 30px;
   }
@@ -385,7 +385,7 @@
   .design__app__wrap h2 {
     font-family: "Roboto Bold";
     font-size: 30px;
-    color: #007faa;
+    color: #005D80;
     position: relative;
     text-align: center;
   }
@@ -438,13 +438,13 @@
   .design__app__box .title {
     font-family: "Roboto Bold";
     font-size: 20px;
-    color: #007faa;
+    color: #005D80;
   }
 
   .design__app__box .content {
     font-family: "Roboto";
     font-size: 15px;
-    color: #606060;
+    color: #595959;
     padding: 0;
   }
 
@@ -587,7 +587,7 @@
   .testimonial__wrap h2 {
     font-family: "Roboto Bold";
     font-size: 40px;
-    color: #007faa;
+    color: #005D80;
     position: relative;
     text-align: center;
   }
@@ -658,14 +658,14 @@
   .owl-carousel-testimonial .item .title {
     font-family: "Roboto";
     font-size: 15px;
-    color: #606060;
+    color: #595959;
     min-height: 150px;
   }
 
   .owl-carousel-testimonial .item .content {
     font-family: "Roboto";
     font-size: 15px;
-    color: #777777;
+    color: #595959;
   }
 
   .owl-carousel-testimonial .item .content span {
@@ -717,13 +717,13 @@
   .profit__text .title {
     font-family: "Roboto Bold";
     font-size: 28px;
-    color: #007faa;
+    color: #005D80;
   }
 
   .profit__text .content {
     font-family: "Roboto";
     font-size: 18px;
-    color: #606060;
+    color: #595959;
   }
 
   .profit__text .content strong {
@@ -757,7 +757,7 @@
   .blog__wrap h2 {
     font-family: "Roboto Bold";
     font-size: 40px;
-    color: #007faa;
+    color: #005D80;
     text-align: center;
     position: relative;
     margin-bottom: 45px;
@@ -808,7 +808,7 @@
   .blog__wrap h2 {
     font-family: "Roboto Bold";
     font-size: 40px;
-    color: #007faa;
+    color: #005D80;
     position: relative;
     text-align: center;
   }
@@ -911,7 +911,7 @@
   .owl-carousel-blog .title {
     font-family: "Roboto Bold";
     font-size: 20px;
-    color: #007faa;
+    color: #005D80;
     padding: 10px;
     text-align: center;
     margin-top: 14px;
@@ -920,7 +920,7 @@
   .owl-carousel-blog .content {
     font-family: "Roboto";
     font-size: 14px;
-    color: #606060;
+    color: #595959;
     padding: 10px;
     text-align: center;
     line-height: 1.7;
@@ -987,7 +987,7 @@
   .contact__wrap h2 {
     font-family: "Roboto Bold";
     font-size: 40px;
-    color: #007faa;
+    color: #005D80;
     text-align: center;
     position: relative;
     margin-bottom: 45px;
@@ -1035,7 +1035,7 @@
   .contact__content div label {
     font-family: "Roboto Bold";
     font-size: 22px;
-    color: #007faa;
+    color: #005D80;
     margin-bottom: 30px;
   }
 
@@ -1075,7 +1075,7 @@
   .contact__text .content {
     font-family: "Roboto";
     font-size: 15px;
-    color: #606060;
+    color: #595959;
   }
 
   .contact__content .contact__field {
@@ -1223,7 +1223,7 @@
   .infor__appspirer .infor_item p {
     font-family: "Roboto";
     font-size: 14px;
-    color: #777777;
+    color: #595959;
     margin: 10px 0px;
   }
 
@@ -1302,7 +1302,7 @@
   .app__appspirer .content {
     font-family: "Roboto ";
     font-size: 16px;
-    color: #777777;
+    color: #595959;
   }
 
   /**top__footer-end**/
@@ -1392,7 +1392,7 @@
   .bottom__footer p {
     font-family: "Roboto";
     font-size: 12px;
-    color: #777777;
+    color: #595959;
     margin-top: 10px;
     text-align: center;
   }
