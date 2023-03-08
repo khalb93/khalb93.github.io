@@ -909,6 +909,7 @@
 
   .owl-carousel-blog .owl-dots {
     margin-left: -10px;
+    display: none;
   }
 
   .blog__wrap .see__all {
