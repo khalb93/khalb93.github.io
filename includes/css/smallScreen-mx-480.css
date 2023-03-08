@@ -517,7 +517,7 @@
   }
 
   .design__web__wrap img {
-    max-width: 333px;
+    width: 333px;
     height: 232px;
     margin-top: 60px;
     margin-left: 0px;
