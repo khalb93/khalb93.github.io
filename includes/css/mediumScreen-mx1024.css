@@ -975,7 +975,7 @@
     padding: 20px;
   }
 
-  .contact__content div p {
+  .contact__content div label {
     font-family: "Roboto Bold";
     font-size: 22px;
     color: #007faa;
