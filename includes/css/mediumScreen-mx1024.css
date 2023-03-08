@@ -146,6 +146,15 @@
     margin-left: 10px;
   }
 
+  .banner__image .filter div span {
+    width: 55px !important;
+    height: 100% !important;
+  }
+  
+  .banner__image .filter div span i{
+    font-size: 20px;
+  }
+
   .banner__wrap .banner__image .filter {
     max-width: 100%;
     display: flex;
