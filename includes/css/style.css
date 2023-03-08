@@ -781,8 +781,8 @@ body {
 }
 
 .owl-carousel-blog .item img {
-  max-width: 467.33px;
-  height: 211.61px;
+  max-width: 100%;
+  height: 212px;
 }
 
 .item .category {
