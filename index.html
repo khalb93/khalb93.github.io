@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Cache-control" content="no-store">
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <title>
       Appspirer Việt Nam - Thiết kế và lập trình phần mềm theo yêu cầu
     </title>
@@ -1261,24 +1266,21 @@
 
     <script>
       $(document).ready(function () {
-        $(".owl-carousel").on(
-          "initialized.owl.carousel",
-          function (e) {
-            //Go through each carousel on the page
-            $(".owl-carousel-testimonial").each(function () {
-              //Find each set of dots in this carousel
-              $(this)
-                .find(".owl-dot")
-                .each(function (index) {
-                  //Add one to index so it starts from 1
-                  $(this).attr("aria-label", index + 1);
-                });
-            });
-          }
-        );
+        $(".owl-carousel").on("initialized.owl.carousel", function (e) {
+          //Go through each carousel on the page
+          $(".owl-carousel-testimonial").each(function () {
+            //Find each set of dots in this carousel
+            $(this)
+              .find(".owl-dot")
+              .each(function (index) {
+                //Add one to index so it starts from 1
+                $(this).attr("aria-label", index + 1);
+              });
+          });
+        });
       });
     </script>
-   
+
     <script>
       function patchScrollBlockingListeners() {
         let supportsPassive = false;
