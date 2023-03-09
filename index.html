@@ -471,15 +471,20 @@
               <button class="button__design__outline">Tìm hiểu thêm</button>
             </div>
           </div>
-          <img
+          <!-- <img
             alt="design__web"
             src="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678179028/Appspirer/designWeb1_ursr2e.webp"
-            sizes="(max-width: 1400px) 480px"
+            sizes="(max-width: 1024px) 480px, 1400px"
             srcset="
               https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_232,w_333/v1678179028/Appspirer/designWeb1_ursr2e.webp 480w,
               https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678179028/Appspirer/designWeb1_ursr2e.webp 1400w
             "
-          />
+          /> -->
+          <picture>
+            <source media="(max-width: 600px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_232,w_333/v1678179028/Appspirer/designWeb1_ursr2e.webp" />
+            <source media="(min-width: 601px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678179028/Appspirer/designWeb1_ursr2e.webp" />
+            <img src="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678179028/Appspirer/designWeb1_ursr2e.webp" alt="designWeb" />
+          </picture>
         </div>
       </div>
     </section>
