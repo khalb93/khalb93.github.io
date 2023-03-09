@@ -348,7 +348,7 @@
                 <div class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img
+                      <!-- <img
                         class="d-block w-100"
                         alt="hinhApp"
                         srcset="
@@ -357,7 +357,12 @@
                         "
                         sizes="(max-width: 1024px) 480px, 1400px"
                         src="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_630,w_385/v1678153132/Appspirer/hinh1_uvszrr.webp"
-                      />
+                      /> -->
+                      <picture>
+                        <source media="(max-width: 600px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_380,w_271/v1678153132/Appspirer/hinh1_uvszrr.webp" />
+                        <source media="(min-width: 601px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_630,w_385/v1678153132/Appspirer/hinh1_uvszrr.webp" />
+                        <img src="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_630,w_385/v1678153132/Appspirer/hinh1_uvszrr.webp" alt="hinhApp" />
+                      </picture>
                     </div>
                     <div class="carousel-item">
                       <img
