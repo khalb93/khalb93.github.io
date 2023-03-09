@@ -190,8 +190,8 @@
     width: 50px !important;
     height: 100% !important;
   }
-  
-  .banner__image .filter div span i{
+
+  .banner__image .filter div span i {
     font-size: 18px;
   }
 
@@ -200,7 +200,7 @@
     height: 265px;
     margin-top: 30px;
   }
-
+  
   .banner__carousel .carousel-item img {
     max-width: 1070px;
     height: 225px;
@@ -212,11 +212,15 @@
     object-position: top left;
   }
 
+  .banner__carousel .carousel-indicators{
+    display: none;
+  }
+
   .banner__carousel .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
-    max-width: 15px !important;
-    height: 15px !important;
+    max-width: 48px !important;
+    height: 48px !important;
     padding: 0;
     margin-right: 3px;
     margin-left: 3px;
@@ -355,7 +359,7 @@
   .about__us h1 {
     font-family: "Roboto Bold";
     font-size: 30px;
-    color: #005D80;
+    color: #005d80;
     text-align: center;
     margin-top: 30px;
   }
@@ -394,7 +398,7 @@
   .design__app__wrap h2 {
     font-family: "Roboto Bold";
     font-size: 30px;
-    color: #005D80;
+    color: #005d80;
     position: relative;
     text-align: center;
   }
@@ -447,7 +451,7 @@
   .design__app__box .title {
     font-family: "Roboto Bold";
     font-size: 20px;
-    color: #005D80;
+    color: #005d80;
   }
 
   .design__app__box .content {
@@ -596,7 +600,7 @@
   .testimonial__wrap h2 {
     font-family: "Roboto Bold";
     font-size: 40px;
-    color: #005D80;
+    color: #005d80;
     position: relative;
     text-align: center;
   }
@@ -726,7 +730,7 @@
   .profit__text .title {
     font-family: "Roboto Bold";
     font-size: 28px;
-    color: #005D80;
+    color: #005d80;
   }
 
   .profit__text .content {
@@ -766,7 +770,7 @@
   .blog__wrap h2 {
     font-family: "Roboto Bold";
     font-size: 40px;
-    color: #005D80;
+    color: #005d80;
     position: relative;
     text-align: center;
   }
@@ -870,7 +874,7 @@
   .owl-carousel-blog .title {
     font-family: "Roboto Bold";
     font-size: 20px;
-    color: #005D80;
+    color: #005d80;
     padding: 10px;
     text-align: center;
     margin-top: 14px;
@@ -947,7 +951,7 @@
   .contact__wrap h2 {
     font-family: "Roboto Bold";
     font-size: 40px;
-    color: #005D80;
+    color: #005d80;
     text-align: center;
     position: relative;
     margin-bottom: 45px;
@@ -995,7 +999,7 @@
   .contact__content div label {
     font-family: "Roboto Bold";
     font-size: 22px;
-    color: #005D80;
+    color: #005d80;
     margin-bottom: 30px;
   }
 
