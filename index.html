@@ -189,12 +189,17 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img
+                  <!-- <img
                     src="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678186633/Appspirer/template_primary_zxrky5.webp"
                     class="d-block w-100"
                     alt="banner1"
                     id="groupAppspirer"
-                  />
+                  /> -->
+                  <picture>
+                    <source media="(max-width: 768px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/q_22/v1678331681/Appspirer/groupAppspirer_vzz9za.webp" />
+                    <source media="(min-width: 769px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/q_22/v1678331681/Appspirer/groupAppspirer_vzz9za.webp" />
+                    <img src="https://res.cloudinary.com/dcnp2nsnl/image/upload/q_22/v1678331681/Appspirer/groupAppspirer_vzz9za.webp" alt="hinhApp" />
+                  </picture>
                 </div>
                 <div class="carousel-item">
                   <img
@@ -359,9 +364,9 @@
                         src="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_630,w_385/v1678153132/Appspirer/hinh1_uvszrr.webp"
                       /> -->
                       <picture>
-                        <source media="(max-width: 600px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_380,w_271/v1678153132/Appspirer/hinh1_uvszrr.webp" />
-                        <source media="(min-width: 601px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_630,w_385/v1678153132/Appspirer/hinh1_uvszrr.webp" />
-                        <img src="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_630,w_385/v1678153132/Appspirer/hinh1_uvszrr.webp" alt="hinhApp" />
+                        <source media="(max-width: 768px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_380,w_271/v1678153132/Appspirer/hinh1_uvszrr.webp" />
+                        <source media="(min-width: 769px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_630,w_655/v1678153132/Appspirer/hinh1_uvszrr.webp" />
+                        <img src="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_630,w_655/v1678153132/Appspirer/hinh1_uvszrr.webp" alt="hinhApp" />
                       </picture>
                     </div>
                     <div class="carousel-item">
@@ -486,8 +491,8 @@
             "
           /> -->
           <picture>
-            <source media="(max-width: 600px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_232,w_333/v1678179028/Appspirer/designWeb1_ursr2e.webp" />
-            <source media="(min-width: 601px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678179028/Appspirer/designWeb1_ursr2e.webp" />
+            <source media="(max-width: 768px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,h_232,w_333/v1678179028/Appspirer/designWeb1_ursr2e.webp" />
+            <source media="(min-width: 769px)" srcset="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678179028/Appspirer/designWeb1_ursr2e.webp" />
             <img src="https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678179028/Appspirer/designWeb1_ursr2e.webp" alt="designWeb" />
           </picture>
         </div>
@@ -1314,10 +1319,10 @@
     <script>
       $(window).resize(function () {
         if ($(window).width() < 1400) {
-          $("#groupAppspirer").attr(
-            "src",
-            "https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678186633/Appspirer/template_primary_zxrky5.webp"
-          );
+          // $("#groupAppspirer").attr(
+          //   "src",
+          //   "https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678186633/Appspirer/template_primary_zxrky5.webp"
+          // );
           $("#blog3").attr(
             "src",
             "https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,w_650/v1678182670/Appspirer/blog3_td8ygp.webp"
@@ -1327,10 +1332,10 @@
             "https://res.cloudinary.com/dcnp2nsnl/image/upload/c_scale,w_79/v1678182646/Appspirer/huy-huynh_fsuywo.webp"
           );
         } else {
-          $("#groupAppspirer").attr(
-            "src",
-            "https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678182686/Appspirer/groupAppspirer_mdryrq.webp"
-          );
+          // $("#groupAppspirer").attr(
+          //   "src",
+          //   "https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678182686/Appspirer/groupAppspirer_mdryrq.webp"
+          // );
           $("#blog3").attr(
             "src",
             "https://res.cloudinary.com/dcnp2nsnl/image/upload/v1678182670/Appspirer/blog3_td8ygp.webp"
